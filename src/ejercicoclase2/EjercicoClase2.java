@@ -103,7 +103,7 @@ public class EjercicoClase2 {
                                 int c;
                                 boolean flag2=true;
                                 while(flag2==true){
-                                    System.out.println("Cuanto de este producto: "+p[4].getNombreP()+" desea.");
+                                    System.out.println("Cuanto de este producto: "+p[3].getNombreP()+" desea.");
                                     c=flujoEn.nextInt();
                                     if(p[3].vender(c)==true){
                                         System.out.println("Procedimiento exitoso ha comprado: "+c+" unidades de : "+p[4].getNombreP()+"."); 
